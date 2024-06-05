@@ -2,6 +2,7 @@
   "name": "eco-bliss-bath",
   "version": "0.0.0",
   "scripts": {
+    "cy:open": "cypress open",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --configuration production",
