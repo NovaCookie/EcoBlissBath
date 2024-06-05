@@ -13,5 +13,3 @@ RUN COMPOSER_ALLOW_SUPERUSER=1 composer install
 
 EXPOSE 8081
 CMD php -S 0.0.0.0:8081 -t public/
-
-

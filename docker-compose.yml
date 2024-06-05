@@ -26,7 +26,7 @@ services:
   mysql:
     image: mysql:latest
     restart: always
-    command: --default-authentication-plugin=mysql_native_password
+    command: ["mysqld", "--mysql-native-password=ON"]
     environment:
       - MYSQL_DATABASE=jardin_actuel
       - MYSQL_ROOT_PASSWORD=jardin
