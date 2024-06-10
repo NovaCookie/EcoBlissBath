@@ -18,7 +18,7 @@ Il est nécessaire d'avoir Docker, Node.js, NPM, Cypress et un navigateur (Chrom
 1. Choisir le dossier dans lequel mettre le projet :
 2. Tapez la commande suivante pour cloner le projet:
 
-git clone [lien](git@github.com:NovaCookie/Projet10.git)
+git clone [git@github.com:NovaCookie/Projet10.git](git@github.com:NovaCookie/Projet10.git)
 
 3. Lancer de Backend:
 -Accédez au dossier du projet.
