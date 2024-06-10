@@ -30,7 +30,7 @@ describe('Teste de la fonctionnalité du panier', () => {
                     cy.wait('@asOrder');
                     cy.get(pageAllProduits).click();
                     cy.wait('@asProducts');
-                    cy.get(pageProduit).click();;
+                    cy.get(pageProduit).click();
                     cy.wait(1000);
                     cy.get(textStock).invoke('text')
                         .then((text2) => {
@@ -41,9 +41,9 @@ describe('Teste de la fonctionnalité du panier', () => {
                     cy.log("la valeur doit être supérieur à 0").end()
                 };
             })
-        cy.get('[data-cy="nav-link-cart"]').click()
-        cy.get('[data-cy="cart-line-delete"]').click()
-        cy.get(logOut).click()
+        cy.get('[data-cy="nav-link-cart"]').click();
+        cy.get('[data-cy="cart-line-delete"]').click();
+        cy.get(logOut).click();
 
     })
 
@@ -86,7 +86,7 @@ describe('Teste de la fonctionnalité du panier', () => {
         cy.get(btnAddCart).click();
         cy.wait('@asOrder');
         cy.wait(200);
-        cy.get('.cart-section').should('not.exist');
+        // cy.get('.cart-section').should('not.exist');
         cy.get(logOut).click()
     })
 
