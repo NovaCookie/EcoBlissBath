@@ -43,23 +43,20 @@ npm start
 -Tapez la commande suivante dans le terminale :
 npm install cypress --save-dev
 
-2. Ouvrir Cypress:
+2. Ouvrir Cypress et lancer les tests:
 Dans le terminal, tapez la commande suivante :
 npx cypress open
 
+## Autres information ##
 
-3. Lancer les Tests :
-
--Tapez la commande suivante pour exécuter les tests et générer un rapport:
-npx cypress run
-
-Login
+1. Jeu de données :
 Identifiant: test2@test.fr
 Mot de passe: testtest
 
-APi
+2. APi
 lien Swagger : http://localhost:8081/api/doc
 
+-----------------------------------------------
 Auteurs
-Armelle Barban
+CARTEAU Nathan
 
